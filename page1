@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+       
+    <style>
+
+    body {
+        position: relative;
+        width: 1366px;
+        height: 2500px;
+        background-color:#E5E5E5;
+        display: flex;
+        
+    }
+
+    .toplogo{
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        margin-left: 46px;
+        margin-top: 31px;
+        background: #C4C4C4;
+        display: flex;
+    }
+
+    .Home a{
+        float: right;
+        position: absolute;
+        width: 49px;
+        height:21px;
+        margin-left: 597px;
+        margin-top: 73px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        padding: 5px;
+        line-height: 21px;
+        text-decoration: none;
+        background-color:#C4C4C4;
+
+    }
+
+
+    .Employee a{
+        position: absolute;
+        width: 79px;
+        height: 21px;
+        margin-left: 791px;
+        margin-top: 73px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-decoration: none;
+        padding: 5px;
+        background-color:#C4C4C4;
+
+
+    }
+
+    .Jobseeker a{
+        position: absolute;
+        width: 84px;
+        height: 21px;
+        margin-left: 998px;
+        margin-top: 73px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-decoration: none;
+        padding: 5px;
+        background-color:#C4C4C4;
+    }
+
+
+    .Contact a{
+        position: absolute;
+        width: 89px;
+        height: 21px;
+        margin-left: 1204px;
+        margin-top: 73px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-decoration: none;
+        padding: 5px;
+        background-color:#C4C4C4;
+        display: flex;
+    }
+
+    .search
+    {
+
+        position: absolute;
+        width: 1280px;
+        height: 165px;
+        margin-left: 45px;
+        margin-top: 188px;
+        background: #C4C4C4;
+       background-image: url();
+    }
+    
+    .searchbar input[type=text]{
+        position: absolute;
+        width: 659.39px;
+        height: 65px;
+        margin-left: 277px;
+        margin-top: 238px;
+        background-color: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        text-align: center;
+        
+
+    }
+    .searchhh{
+        position: absolute;
+        width: 156.24px;
+        height: 65px;
+        left: 936.31px;
+        top: 238px;
+        background: #C1C1CC;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .filterJobByCatagory{
+
+        position: absolute;
+        width: 300px;
+        height: 500px;
+        text-decoration: none;
+        margin-left: 45px;
+        margin-top: 417px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: black;
+        font-size:22px;
+        line-height: 26px;
+    }
+
+    .mostViewedJobs
+    {
+
+        position: absolute;
+        width: 291px;
+        height: 47px;
+        margin-left: 45px;
+        margin-top: 1000px;
+        background: #C4C4C4;
+    }
+
+    .jobTitle1{
+
+        position: absolute;
+        width: 769px;
+        height: 235px;
+        margin-left: 556px;
+        margin-top: 417px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .apply{
+
+        float: right;
+        margin-left: 14.75%;
+        margin-right: 14.75%;
+        margin-top: 22.22%;
+        margin-bottom: 19.44%;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+/* identical to box height */
+        color: #000000;
+
+
+    }
+    .textArea{
+
+        padding: 10px;
+    }
+
+
+
+
+    
+    </style>
+</head>
+<body>
+<div class="toplogo">
+        <img src="logo.png" width="200" height="100">
+</div>
+
+
+<div class="Home">
+        <a class="active" href="#Home">Home</a>
+       </div>
+       
+<div class="Employee">
+        <a  href="Employee">Employee</a>
+        </div>
+        
+<div class="Jobseeker">
+        <a  href="Jobseker">Jobseker</a>
+        </div>
+
+
+<div class="Contact">
+        <a  href="Contact us">Contact us</a>
+        </div>
+      
+<div class="search">
+    
+</div>  
+<div class="searchbar">
+        <input type="text" placeholder="Web Developer..">
+    </div>      
+
+        <button class="searchhh">search</button> <!--search is a button-->
+
+</div>
+<div class="filterJobByCatagory">
+        <ul style="list-style-type:square">
+                <li><a href="accounting">accounting</a></li>
+                <li><a href="computing">computing</a></li>
+                <li> <a href="agriculture">agriculture</a></li>
+                <li><a href="computing">computing</a></li>
+                <li><a href="computing">computing</a></li>
+                <li><a href="computing">computing</a></li>
+                <li><a href="computing">computing</a></li>
+                <li><a href="accounting">accounting</a></li>
+                <li><a href="accounting">accounting</a></li>
+                <li><a href="accounting">accounting</a></li>
+                <li><a href="accounting">accounting</a></li>
+                <li><a href="accounting">accounting</a></li>
+                <li><a href="accounting">accounting</a></li>
+                <li> <a href="agriculture">agriculture</a></li>
+                <li> <a href="agriculture">agriculture</a></li>                                    
+        </ul>    
+</div>
+
+<button class="mostViewedJobs" onclick="document.write('we havent posted any job this time.You can see them whenever we will add them')">most viewed jobs</button>
+<div class="jobTitle1">
+    <button class="apply">apply</button>
+    <div class="textArea">
+        <h2>Job Title</h2>
+        <h3>Company Name</h3>
+        <p>This vacancy is for those who are really pasonate to do IT related taskand those and who have a basic idea  about various programming language and networkingskills
+   
+        </p>
+    </div>
+
+</div>
+
+
+</body>
+</html>
